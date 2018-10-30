@@ -24,6 +24,8 @@ ansible-playbook -i inventory/zabbix_agent.yml zabbix_agent.yml
 
 # doc
 
+to get how to use a module
+
 ```
 ansible-doc hostname
 ```
