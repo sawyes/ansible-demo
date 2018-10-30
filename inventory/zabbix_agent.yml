@@ -1,0 +1,5 @@
+[zabbix_agent]
+x.x.x.236	hostname=test-server-1 meta=spider
+x.x.x.237  hostname=test-server-web meta='spider web'
+x.x.x.232:2279 hostname=test-serverdb-223 meta=script
+x.x.x.233:2279 hostname=test-serverdb-233 meta=mysql
