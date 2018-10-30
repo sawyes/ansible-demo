@@ -1,12 +1,23 @@
 # install 
 
-on server
+on server side
 
 ```
 yum update
 yum -y install ansible
 ```
 
+# ssh to client
+
+on server side
+
+```
+# generate ssh key
+ssh-keygen -t RSA
+
+# copy ssh key to remote client, that login without password
+ssh-copy-id -i ~/.ssh/id_rsa.pub root@x.x.x.x
+```
 
 # usage
 
